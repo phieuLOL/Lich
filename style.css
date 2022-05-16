@@ -1,0 +1,73 @@
+* {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-family: 'SF Mono';
+}
+ul li {
+     list-style-type: none;
+}
+.table-calentor {
+     display: flex;
+     flex-direction: column;
+     margin: 100px calc((100% - 420px) / 2);
+     padding: 10px 30px;
+     border: 2px solid #000;
+     border-radius: 7px;
+     background-image: linear-gradient(to right bottom, #662d8c, #ed1e79);
+     width: 420px;
+
+     box-shadow: 0 0 50px #ed1e79;
+}
+#name-month {
+     width: 97%;
+     margin: 0 1.5%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 60px;
+     border-bottom: 1px solid #000;
+     font-weight: 900;
+}
+#day-of-week {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     margin: 10px 0 10px 0;
+     font-weight: 900;
+}
+.day {
+     width: 60px;
+     text-align: center;
+     justify-content: center;
+}
+#day-of-month {
+     display: flex;
+     flex-wrap: wrap;
+     /* flex-direction: row; */
+     font-weight: 600;
+}
+.day-of-mo {
+     color: hsla(239, 100%, 50%, 0.3);
+}
+.false {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 40px;
+     width: 40px;
+     margin: 10px;
+}
+#true {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 40px;
+     width: 40px;
+     margin: 10px;
+
+     color: #fff;
+}
+.not {
+     color: #000;
+}
