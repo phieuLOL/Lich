@@ -48,7 +48,7 @@ ul li {
      font-weight: 600;
 }
 .day-of-mo {
-     color: hsla(239, 100%, 50%, 0.3);
+/*      color: hsla(239, 100%, 50%, 0.3); */
 }
 .false {
      display: flex;
