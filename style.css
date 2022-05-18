@@ -4,13 +4,17 @@
      border: 0;
      font-family: 'SF Mono';
 }
+#my-body {
+     display: flex;
+     flex-direction: row;
+}
 ul li {
      list-style-type: none;
 }
 .table-calentor {
      display: flex;
      flex-direction: column;
-     margin: 100px calc((100% - 420px) / 2);
+     margin: 100px;
      padding: 10px 30px;
      border: 2px solid #000;
      border-radius: 7px;
@@ -47,9 +51,6 @@ ul li {
      /* flex-direction: row; */
      font-weight: 600;
 }
-.day-of-mo {
-/*      color: hsla(239, 100%, 50%, 0.3); */
-}
 .false {
      display: flex;
      align-items: center;
@@ -70,4 +71,39 @@ ul li {
 }
 .not {
      color: #000;
+}
+.schedule {
+     display: flex;
+     flex-direction: column;
+     margin: 100px 100px 100px 0;
+     border: 2px solid #000;
+     border-radius: 7px;
+     width: 300px;
+
+     background-image: linear-gradient(to right bottom, #0011ff, #00b7ff);
+}
+.thu {
+     display: flex;
+     flex-direction: row;
+     height: 30px;
+     line-height: 30px;
+     padding: calc(((100% / 6) - 30px) / 2) 0;
+     justify-content: center;
+     border-bottom: 1px solid #000;
+     color: #fff;
+}
+.namethu {
+     padding: 0 10px;
+     width: 50px;
+     height: 100%;
+     border-right: 1px solid #000;
+}
+.morning {
+     padding: 0 10px;
+     width: 70px;
+     border-right: 1px solid #000;
+}
+.afternoon {
+     margin: 0 10px;
+     width: 50px;
 }
