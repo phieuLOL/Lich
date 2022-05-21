@@ -30,11 +30,29 @@ for (let index = 0; index < day; index++) {
 
 // lấy số ngày trong tháng
 var maxday = 30;
+
 switch (month) {
-     case 1, 3, 5, 7, 8, 10, 11:
+     case 1:
           maxday = 31;
           break;
-
+     case 3:
+          maxday = 31;
+          break;
+     case 5:
+          maxday = 31;
+          break;
+     case 7:
+          maxday = 31;
+          break;
+     case 8:
+          maxday = 31;
+          break;
+     case 10:
+          maxday = 31;
+          break;
+     case 12:
+          maxday = 31;
+          break;
      case 2:
           maxday = 28;
           var nhuan = false;
@@ -50,6 +68,7 @@ switch (month) {
           if (nhuan) maxday = 29;
           break;
 }
+
 // in ra các ngày trong tháng.
 for (let index = 1; index <= maxday; index++) {
      var _class = `day-of-mo false pass`;
